@@ -3,6 +3,7 @@ title: Audio
 ---
 
 Provides basic sample playback and recording.
+提供回放和录制的基本示例。
 
 Note that Expo does not yet support backgrounding, so audio is not available to play in the background of your experience. Audio also automatically stops if headphones / bluetooth audio devices are disconnected.
 
@@ -14,7 +15,7 @@ Try the [playlist example app](http://expo.io/@community/playlist) (source code 
 
 Audio is enabled by default, but if you want to write your own Audio API in a detached app, you might want to disable the Expo Audio API.
 
-#### Arguments
+#### Arguments 参数
 
 -   **value (_boolean_)** -- `true` enables Expo Audio, and `false` disables it.
 
